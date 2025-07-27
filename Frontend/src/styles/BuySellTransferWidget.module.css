@@ -1,0 +1,262 @@
+.widgetContainer {
+  background-color: #1E1E1E;
+  color: #EEE;
+  border-radius: 8px;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+.tabs {
+  display: flex;
+  background-color: #1E1E1E;
+  border-bottom: 1px solid #333;
+  padding: 0 15px;
+}
+
+.tab {
+  padding: 10px 0;
+  margin-right: 20px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 500;
+  border-bottom: 2px solid transparent;
+  color: #888;
+  transition: border-color 0.2s, color 0.2s;
+}
+
+.tabActive {
+  border-bottom: 2px solid #EEE;
+  color: #EEE;
+}
+
+.mainContent {
+  display: flex;
+}
+
+.section {
+  flex: 1;
+  padding: 15px;
+}
+
+.sectionBorder {
+  border-right: 1px solid #333;
+}
+
+.sectionTitleDark {
+  font-size: 14px;
+  font-weight: 500;
+  color: #EEE;
+  margin-bottom: 15px;
+}
+
+.sectionTitleLight {
+  font-size: 14px;
+  font-weight: 500;
+  color: #222;
+  margin-bottom: 15px;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.inputWrapper {
+  display: flex;
+  align-items: center;
+  background-color: #2B2B2B;
+  border-radius: 4px;
+  border: 1px solid #555;
+}
+
+.inputField {
+  width: 100%;
+  padding: 10px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-size: 13px;
+  color: #EEE;
+}
+
+.inputFieldDisabled {
+  color: #888;
+}
+
+.inputLabel {
+  font-size: 12px;
+  color: #888;
+  margin-top: 4px;
+}
+
+.submitButton {
+  width: 100%;
+  padding: 12px;
+  border-radius: 4px;
+  border: none;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.submitButtonDisabled {
+  background-color: #444;
+  color: #888;
+  cursor: not-allowed;
+}
+
+.buyButton {
+  background-color: #0ECB81;
+  color: #000;
+}
+
+.sellButton {
+  background-color: #F6465D;
+  color: #000;
+}
+
+.message {
+  margin: 0 20px 20px 20px;
+  padding: 10px;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 14px;
+  color: #000;
+}
+
+.messageSuccess {
+  background-color: #0ECB81;
+}
+
+.messageError {
+  background-color: #F6465D;
+}
+/* Containers */
+.widgetContainerDark {
+  background-color: #1A1A1A;
+  color: #EEE;
+}
+
+.widgetContainerLight {
+  background-color: #FFFFFF;
+  color: #333;
+}
+
+/* Sections */
+.sectionDark {
+  background-color: #222;
+  border-color: #333;
+}
+
+.sectionLight {
+  background-color: #f9f9f9;
+  border-color: #ccc;
+}
+
+/* Forms */
+.formContainerDark {
+  background-color: #2A2A2A;
+}
+
+.formContainerLight {
+  background-color: #fff;
+}
+
+/* Inputs */
+.inputFieldDark {
+  background-color: #333;
+  color: #EEE;
+  border: 1px solid #555;
+}
+
+.inputFieldLight {
+  background-color: #fff;
+  color: #333;
+  border: 1px solid #ccc;
+}
+
+/* Buttons */
+.submitButtonDark {
+  background-color: #0ECB81;
+  color: #000;
+}
+
+.submitButtonLight {
+  background-color: #0ECB81;
+  color: #fff;
+}
+
+/* Tabs */
+.tabDark {
+  background-color: #333;
+  color: #EEE;
+}
+
+.tabLight {
+  background-color: #fff;
+  color: #333;
+}
+
+/* Messages */
+.messageDark {
+  background-color: #222;
+  color: #EEE;
+}
+
+.messageLight {
+  background-color: #f2f2f2;
+  color: #333;
+}
+.tabs {
+  display: flex;
+}
+
+/* Dark mode container background */
+.tabsDark {
+  background-color: #1a1a1a;
+  border-bottom: 1px solid #333;
+}
+
+/* Light mode container background */
+.tabsLight {
+  background-color: #f9f9f9;
+  border-bottom: 1px solid #ccc;
+}
+
+/* Individual tab button */
+.tab {
+  padding: 8px 16px;
+  cursor: pointer;
+  border: none;
+  font-weight: 500;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+/* DARK inactive tab */
+.tabDark {
+  background-color: #1a1a1a;
+  color: #bbb;
+}
+
+/* LIGHT inactive tab */
+.tabLight {
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* ACTIVE tab in dark mode */
+.tabActiveDark {
+  background-color: #333;
+  color: #0ecb81;
+  border-bottom: 2px solid #0ecb81;
+}
+
+/* ACTIVE tab in light mode */
+.tabActiveLight {
+  background-color: #eee;
+  color: #0ecb81;
+  border-bottom: 2px solid #0ecb81;
+}

@@ -1,0 +1,322 @@
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+
+.containerDark {
+  background-color: #1a1a1a;
+  color: white;
+}
+
+.containerLight {
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+.leftSidebar {
+  width: 400px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;           /* Ensures full viewport */
+  flex-shrink: 0;
+  overflow: hidden;
+}
+
+.leftSidebarDark {
+  background-color: #0f0f0f;
+}
+
+.leftSidebarLight {
+  background-color: #fff;
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.logoIcon {
+  width: 80px;
+  height: 80px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+  position: relative;
+  box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
+}
+
+.logoSymbol {
+  color: white;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.logoIndicator {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  width: 20px;
+  height: 20px;
+  background-color: #f59e0b;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logoIndicatorDot {
+  width: 8px;
+  height: 8px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.logoTextCrypto {
+  margin: 0;
+  font-size: 32px;
+  font-weight: bold;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.logoTextCortex {
+  margin: 0;
+  font-size: 32px;
+  font-weight: bold;
+  color: #f59e0b;
+}
+
+.signupSection {
+  width: 100%;
+  max-width: 300px;
+}
+
+.signupTitle {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.signupDescription {
+  color: #9ca3af;
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 16px;
+}
+
+.signupButton {
+  width: 100%;
+  padding: 15px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border: none;
+  border-radius: 12px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+
+.rightSide {
+  flex: 1;
+  height: calc(100vh - 64px);
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 0 20px 20px 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+.rightSide::-webkit-scrollbar {
+  width: 8px;
+}
+
+.rightSide::-webkit-scrollbar-track {
+  background: #222;
+}
+
+.rightSide::-webkit-scrollbar-thumb {
+  background-color: #555;
+  border-radius: 4px;
+}
+
+.popularSection {
+  margin-bottom: 40px;
+}
+
+.popularTitle {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.popularGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+}
+
+.popularCard {
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.popularCardDark {
+  background-color: #2d2d2d;
+}
+
+.popularCardLight {
+  background-color: #fff;
+}
+
+.popularCardTitle {
+  margin: 0;
+}
+
+.popularCardPrice {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.popularCardChange {
+  font-size: 14px;
+}
+
+.popularCardChangePositive {
+  color: #10b981;
+}
+
+.popularCardChangeNegative {
+  color: #ef4444;
+}
+
+.popularCardChangeNeutral {
+  color: #9ca3af;
+}
+
+.searchSection {
+  margin-bottom: 20px;
+}
+
+.searchInput {
+  padding: 12px;
+  width: 300px;
+  font-size: 16px;
+  border-radius: 6px;
+}
+
+.searchInputDark {
+  background-color: #404040;
+  border: 1px solid #555;
+  color: white;
+}
+
+.searchInputLight {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  color: #333;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 8px;
+  overflow: auto;
+}
+
+.tableDark {
+  background-color: #2d2d2d;
+}
+
+.tableLight {
+  background-color: #fff;
+}
+
+.tableHeadDark {
+  background-color: #1f2937;
+}
+
+.tableHeadLight {
+  background-color: #e5e7eb;
+}
+
+.tableHeader {
+  padding: 12px;
+  text-align: center;
+  color: #9ca3af;
+  font-weight: bold;
+}
+
+.tableRow {
+  transition: background 0.2s;
+}
+
+.tableRowDark {
+  border-bottom: 1px solid #444;
+  background-color: #2d2d2d;
+}
+
+.tableRowLight {
+  border-bottom: 1px solid #ccc;
+  background-color: #fff;
+}
+
+.tableCell {
+  padding: 12px;
+  text-align: center;
+}
+
+.tableCellChangePositive {
+  color: #10b981;
+}
+
+.tableCellChangeNegative {
+  color: #ef4444;
+}
+
+.tableCellLink {
+  color: #60a5fa;
+  text-decoration: underline;
+}
+
+.pagination {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.paginationButton {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+}
+
+.paginationButtonEnabled {
+  background-color: #555;
+  color: white;
+  cursor: pointer;
+}
+
+.paginationButtonDisabled {
+  background-color: #404040;
+  color: #666;
+  cursor: not-allowed;
+}

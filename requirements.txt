@@ -1,0 +1,27 @@
+fastapi==0.115.12                    
+uvicorn[standard]
+uvicorn==0.34.3         
+python-binance==1.0.29                    
+python-dotenv==1.1.0                 
+websocket-client==1.8.0               
+pandas==2.3.0                       
+sqlmodel==0.0.24                      
+motor==3.3.1                    
+pymongo[srv]==4.5.0        
+beanie==1.25.0                 
+pydantic>=2.6,<3.0   
+python-jose==3.5.0
+passlib==1.7.4
+bcrypt==4.3.0
+cryptography==45.0.4  
+python-multipart==0.0.20
+# web3==7.12.0
+APScheduler==3.11.0
+transformers==4.53.0
+torch==2.7.1
+tensorflow==2.19.0
+tf_keras==2.19.0
+redis==6.2.0
+# celery==5.5.3
+# flower==2.0.1
+dramatiq==1.18.0

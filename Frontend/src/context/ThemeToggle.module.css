@@ -1,0 +1,110 @@
+/* Binance-style theme toggle button */
+.themeToggle {
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  background: transparent;
+  position: relative;
+  overflow: hidden;
+}
+
+.themeToggle:hover {
+  transform: scale(1.05);
+}
+
+.themeToggle:active {
+  transform: scale(0.95);
+}
+
+/* Dark theme styling */
+.themeToggleDark {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #fbbf24; /* Yellow sun color */
+}
+
+.themeToggleDark:hover {
+  background: rgba(255, 255, 255, 0.15);
+  border-color: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 4px 12px rgba(251, 191, 36, 0.2);
+}
+
+/* Light theme styling */
+.themeToggleLight {
+  background: rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  color: #6366f1; /* Purple moon color */
+}
+
+.themeToggleLight:hover {
+  background: rgba(0, 0, 0, 0.08);
+  border-color: rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 12px rgba(99, 102, 241, 0.2);
+}
+
+/* Icon styling */
+.icon {
+  transition: all 0.3s ease;
+}
+
+.themeToggleDark .icon {
+  color: #fbbf24;
+}
+
+.themeToggleLight .icon {
+  color: #6366f1;
+}
+
+/* Hover effects for icons */
+.themeToggle:hover .icon {
+  transform: rotate(15deg);
+}
+
+.themeToggleDark:hover .icon {
+  filter: drop-shadow(0 0 8px rgba(251, 191, 36, 0.5));
+}
+
+.themeToggleLight:hover .icon {
+  filter: drop-shadow(0 0 8px rgba(99, 102, 241, 0.5));
+}
+
+/* Focus states for accessibility */
+.themeToggle:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.5);
+}
+
+.themeToggle:focus-visible {
+  outline: 2px solid #3b82f6;
+  outline-offset: 2px;
+}
+
+/* Animation for theme transition */
+@keyframes themeSwitch {
+  0% { transform: rotate(0deg) scale(1); }
+  50% { transform: rotate(180deg) scale(1.1); }
+  100% { transform: rotate(360deg) scale(1); }
+}
+
+.themeToggle:active .icon {
+  animation: themeSwitch 0.6s ease-in-out;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .themeToggle {
+    width: 36px;
+    height: 36px;
+  }
+  
+  .icon {
+    width: 18px;
+    height: 18px;
+  }
+}

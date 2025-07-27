@@ -1,0 +1,219 @@
+/* Container */
+.orderBookContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+/* Theming top level */
+.orderBookDark {
+  background-color: #1A1A1A;
+  color: #EEE;
+  border: 1px solid #333;
+}
+
+.orderBookLight {
+  background-color: #FFFFFF;
+  color: #333;
+  border: 1px solid #DDD;
+}
+
+/* Header */
+.header {
+  padding: 15px 20px;
+  flex-shrink: 0;
+}
+
+.headerDark {
+  border-bottom: 1px solid #333;
+}
+
+.headerLight {
+  border-bottom: 1px solid #DDD;
+}
+
+.headerTitle {
+  text-align: center;
+  margin: 0 0 10px 0;
+  font-size: 18px;
+}
+
+.headerRow {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+}
+
+.headerRowDark {
+  color: #888;
+}
+
+.headerRowLight {
+  color: #666;
+}
+
+/* Content area */
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  padding: 0 20px;
+}
+
+/* Asks and bids scrollable areas */
+.asks, .bids {
+  flex: 1;
+  overflow-y: auto;
+}
+
+.asks {
+  display: flex;
+  flex-direction: column-reverse;
+  padding-bottom: 10px;
+}
+
+.bids {
+  padding-top: 10px;
+}
+
+/* Order row line */
+.orderRow {
+  display: flex;
+  justify-content: space-between;
+  padding: 2px 0;
+  font-size: 12px;
+  font-family: monospace;
+}
+
+.orderPriceAsk {
+  color: #F6465D;
+}
+
+.orderPriceBid {
+  color: #0ECB81;
+}
+
+.orderQty {
+  color: #E80505;
+}
+
+.highlightAsk {
+  background-color: rgba(246, 70, 93, 0.1);
+  border-radius: 3px;
+}
+
+.highlightBid {
+  background-color: rgba(14, 203, 129, 0.1);
+  border-radius: 3px;
+}
+
+/* CURRENT PRICE BAR (middle separator) */
+.currentPriceSection {
+  padding: 15px 0;
+  text-align: center;
+  margin: 0 -20px;
+  flex-shrink: 0;
+}
+
+.currentPriceSectionDark {
+  background-color: #222;
+  border-top: 1px solid #333;
+  border-bottom: 1px solid #333;
+}
+
+.currentPriceSectionLight {
+  background-color: #F5F5F5;
+  border-top: 1px solid #DDD;
+  border-bottom: 1px solid #DDD;
+}
+
+/* Price text itself */
+.currentPrice {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.currentPriceDark {
+  color: #0ECB81;
+}
+
+.currentPriceLight {
+  color: #0ECB81;
+}
+
+/* Spread */
+.spread {
+  font-size: 11px;
+}
+
+.spreadDark {
+  color: #AAA;
+}
+
+.spreadLight {
+  color: #666;
+}
+
+/* Footer */
+.footer {
+  padding: 10px 20px;
+  font-size: 11px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footerDark {
+  border-top: 1px solid #333;
+  color: #888;
+}
+
+.footerLight {
+  border-top: 1px solid #DDD;
+  color: #666;
+}
+
+/* ===== Scrollbar Styling ===== */
+
+/* Dark Theme Scrollbars */
+.orderBookDark ::-webkit-scrollbar {
+  width: 6px;
+}
+.orderBookDark ::-webkit-scrollbar-track {
+  background: #1a1a1a;
+}
+.orderBookDark ::-webkit-scrollbar-thumb {
+  background-color: #444;
+  border-radius: 4px;
+}
+.orderBookDark ::-webkit-scrollbar-thumb:hover {
+  background-color: #666;
+}
+
+/* Firefox */
+.orderBookDark {
+  scrollbar-color: #444 #1a1a1a;
+}
+
+/* Light Theme Scrollbars */
+.orderBookLight ::-webkit-scrollbar {
+  width: 6px;
+}
+.orderBookLight ::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+.orderBookLight ::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 4px;
+}
+.orderBookLight ::-webkit-scrollbar-thumb:hover {
+  background-color: #999;
+}
+
+.orderBookLight {
+  scrollbar-color: #ccc #ffffff;
+}

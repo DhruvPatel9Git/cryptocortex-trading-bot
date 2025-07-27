@@ -1,0 +1,76 @@
+.chartContainer {
+  width: 100%;
+  height: 100%;
+  background-color: #1A1A1A;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.chartHeader {
+  padding: 8px 16px 4px 16px;
+  border-bottom: 1px solid #333;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chartTitleDark {
+  color: #EEE;
+  margin: 0;
+  font-size: 18px;
+}
+
+.chartTitleLight {
+  color: #222;
+  margin: 0;
+  font-size: 18px;
+}
+
+.currentPrice {
+  color: #0ECB81;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.plotContainer {
+  flex: 1;
+  min-height: 0;
+  padding: 10px;
+}
+
+.loadingContainer {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #AAA;
+  font-size: 18px;
+  text-align: center;
+}
+
+.loadingText {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.chartContainerDark {
+  background-color: #1A1A1A;
+  color: #EEE;
+}
+
+.chartContainerLight {
+  background-color: #ffffff;
+  color: #333;
+}
+
+.loadingContainerDark {
+  background-color: #1A1A1A;
+  color: #EEE;
+}
+
+.loadingContainerLight {
+  background-color: #ffffff;
+  color: #333;
+}

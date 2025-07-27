@@ -1,0 +1,43 @@
+back button
+
+Main Task Remaining
+
+
+
+
+gas charge is only for ethereum blockchain(not implemented instead of it trading fee is implemented)
+
+
+
+Done
+redis cache in token after registeration(done), trading through queuing 
+chatbot--candlestick prices, history,personal order buy sell notify(candlestick prices done)
+Frontend
+Table diplay of stocks
+fetch historical data
+pagination
+live price of stored coins 
+display portfolio in chart
+seach filter
+transaction, portfolio, credits_history, users update on limit (while buying in frontend it should display differnet msg)
+
+cron job with sync tracker
+candlestick graph with orderbook
+buy sell transfer proper syncing 
+improvement in frontend
+    
+
+backend
+store candlestick data to mongodb
+store crypto coins data to mongodb
+live price of stored coins
+
+
+extra charge during buy sell 
+guess charge
+realtime web3.py
+
+
+after transfer coins to another user it should also cresit recveiver balance--left
+in cart quantity * unit_price (price) is given-no unit price
+delete cart is not done in frontend only clear cart is provided

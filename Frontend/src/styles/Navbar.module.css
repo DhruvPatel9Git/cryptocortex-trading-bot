@@ -1,0 +1,126 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 64px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  z-index: 999;
+}
+
+/* THEME VARIANTS */
+.navbarLight {
+  background-color: rgba(255, 255, 255, 0.85);
+  color: black;
+}
+
+.navbarDark {
+  background-color: rgba(0, 0, 0, 0.85);
+  color: white;
+}
+
+.navbarLeft,
+.navbarRight {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.logoLink {
+  text-decoration: none;
+}
+
+.logoText {
+  font-size: 1.5rem;
+}
+
+.navLinks {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+.navLinkItem a {
+  text-decoration: none;
+  padding: 6px 10px;
+  transition: color 0.2s;
+}
+
+.navbarLight .navLinkItem a {
+  color: black;
+}
+
+.navbarLight .navLinkItem a:hover {
+  color: #333;
+  text-decoration: underline;
+}
+
+.navbarDark .navLinkItem a {
+  color: white;
+}
+
+.navbarDark .navLinkItem a:hover {
+  color: #ccc;
+  text-decoration: underline;
+}
+
+.welcome {
+  white-space: nowrap;
+}
+
+.navbarLight .welcome {
+  color: black;
+}
+
+.navbarDark .welcome {
+  color: white;
+}
+
+.authButton {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.navbarLight .authButton {
+  background-color: #f0f0f0;
+  color: black;
+}
+
+.navbarLight .authButton:hover {
+  background-color: #ddd;
+}
+
+.navbarDark .authButton {
+  background-color: black;
+  color: white;
+}
+
+.navbarDark .authButton:hover {
+  background-color: #444;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .navbarRight {
+    align-self: flex-end;
+    margin-top: 10px;
+  }
+  .navLinks {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
