@@ -1,14 +1,14 @@
 # Assignment 1 – Object, Context & Information Analysis  
-**Student ID**: 202412032  
-**Name**: Kaival Shah  
+**Student ID**: 202412066  
+**Name**: Patel Dhruv Alkeshbhai  
 
-## 📌 Project Title: CryptoCortex – Crypto Trading Platform
+## Project Title: CryptoCortex – Crypto Trading Platform
 
 CryptoCortex is a secure, credit-based cryptocurrency trading platform that allows users to buy, sell, and transfer digital assets. It integrates credit management, portfolio tracking, real-time trading, and AI-powered chatbot assistance under a modular and scalable architecture using FastAPI, Beanie, MongoDB, and React.
 
 ---
 
-## 🧱 OBJECTS
+## OBJECTS
 
 | Object               | Description                                                                 |
 |----------------------|-----------------------------------------------------------------------------|
@@ -25,7 +25,7 @@ CryptoCortex is a secure, credit-based cryptocurrency trading platform that allo
 
 ---
 
-## 🌐 CONTEXTS
+## CONTEXTS
 
 | Context               | Objects Involved                                    | Description                                                                 |
 |-----------------------|-----------------------------------------------------|-----------------------------------------------------------------------------|
@@ -41,7 +41,7 @@ CryptoCortex is a secure, credit-based cryptocurrency trading platform that allo
 
 ---
 
-## 🧠 INFORMATION PER CONTEXT
+## INFORMATION PER CONTEXT
 
 ### 1. User Authentication
 - **User**: ID, Username, Email, Password (hashed), Role, JWT Tokens  
