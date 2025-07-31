@@ -169,24 +169,3 @@ dramatiq tasks.trade_tasks --watch .
 
 ---
 
-## 🛡️ Notes
-
-* ✅ Keep `.env` secure and out of version control.
-* ✅ Ensure Redis is installed locally or use Docker/Remote instance.
-* ✅ For production, consider using `gunicorn`, `nginx`, `pm2`, and environment-specific settings.
-
----
-
-🎉 You're all set! Start building with CryptoCortex.
-
-```
-
----
-
-Let me know if you also want:
-
-- Docker setup  
-- PM2/Nginx for production  
-- Instructions to seed test data  
-- Testing instructions with Pytest or Postman
-```
