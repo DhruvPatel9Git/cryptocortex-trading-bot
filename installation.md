@@ -29,6 +29,7 @@ Ensure you have the following installed:
 git clone https://github.com/your-username/cryptocortex.git
 cd cryptocortex
 ```
+````
 
 > Replace `your-username` with your actual GitHub username.
 
