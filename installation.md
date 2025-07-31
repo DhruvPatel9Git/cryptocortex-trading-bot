@@ -231,6 +231,5 @@ dramatiq tasks.trade_tasks --watch .
 This project is licensed under the **MIT License**.
 See the `LICENSE` file for details.
 
-```
 
 
