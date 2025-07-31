@@ -1,28 +1,27 @@
-Here's the **complete `INSTALLATION.md`** guide for your **CryptoCortex** project — including:
+# ⏱️ ChronoBank Installation Guide
 
-* ✅ Python virtual environment setup
-* ✅ Backend dependencies
-* ✅ `.env` variables
-* ✅ Frontend (React) setup
-* ✅ Redis + Dramatiq worker setup
+ChronoBank is a time-based banking system built with Flask and MySQL. This guide helps you set up the project locally.
 
 ---
 
-````markdown
-# 🚀 CryptoCortex Installation Guide
+## 📋 Prerequisites
 
-Welcome to **CryptoCortex**, a full-stack crypto trading platform powered by **FastAPI**, **React**, **MongoDB**, **Redis**, and **Dramatiq**.
+Ensure you have the following installed:
+
+- Python 3.9+
+- MySQL Server (e.g., XAMPP/WAMP/MAMP or standalone)
+- Git
 
 ---
 
-## 🧰 Backend Setup (FastAPI + MongoDB)
+## 🧪 Step-by-Step Setup
 
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/cryptocortex.git
-cd cryptocortex
-````
+git clone https://github.com/your-username/chronobank-system.git
+cd chronobank-system
+
 
 ---
 
