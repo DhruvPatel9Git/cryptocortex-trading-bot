@@ -2,7 +2,7 @@ Here's your **complete and properly formatted Markdown file** for setting up **C
 
 ---
 
-````markdown
+
 # 💹 Installation Guide for CryptoCortex
 
 CryptoCortex is a full-stack cryptocurrency trading platform powered by **FastAPI** (backend) and **React** (frontend). This guide walks you through setting up the project on your local machine.
@@ -29,7 +29,7 @@ Ensure you have the following installed:
 git clone https://github.com/your-username/cryptocortex.git
 cd cryptocortex
 ```
-````
+
 
 > Replace `your-username` with your actual GitHub username.
 
