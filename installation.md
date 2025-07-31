@@ -1,26 +1,28 @@
-# ⏱️ ChronoBank Installation Guide
+# 💹 Installation Guide for CryptoCortex
 
-ChronoBank is a time-based banking system built with Flask and MySQL. This guide helps you set up the project locally.
+CryptoCortex is a full-stack cryptocurrency trading platform powered by FastAPI (backend) and React (frontend). This guide will walk you through setting up the project on your local machine.
 
 ---
 
 ## 📋 Prerequisites
 
-Ensure you have the following installed:
+Ensure you have the following installed on your system:
 
-- Python 3.9+
-- MySQL Server (e.g., XAMPP/WAMP/MAMP or standalone)
-- Git
+- **Python 3.9+**
+- **Node.js + npm (or yarn)**
+- **MongoDB** (locally or Atlas)
+- **Redis**
+- **Git**
 
 ---
 
-## 🧪 Step-by-Step Setup
+## 🧠 Backend Setup (FastAPI)
 
-### 1️⃣ Clone the Repository
+### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/chronobank-system.git
-cd chronobank-system
+git clone https://github.com/your-username/cryptocortex.git
+cd cryptocortex
 ```
 
 ---
