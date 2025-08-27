@@ -159,8 +159,4 @@ MIT License © 2025 \[Your Name / Team]
 
 ---
 
-```
 
-👉 Do you want me to also include **demo data & Postman collection docs** (for API testing), so anyone can quickly test `cart`, `credits`, `trade`, and `transfer` flows?
-```
-# CryptoCortex---Crypto-Trading-Bot
