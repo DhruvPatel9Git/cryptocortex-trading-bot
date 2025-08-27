@@ -1,6 +1,4 @@
-Here’s a **starter `README.md`** for your **CryptoCortex** project, structured cleanly so it works well on GitHub and in documentation sites:
 
-```markdown
 # 🪙 CryptoCortex  
 
 CryptoCortex is a modern **crypto trading and portfolio management platform** built with **FastAPI**, **MongoDB (Beanie ODM)**, and a **React frontend**.  
