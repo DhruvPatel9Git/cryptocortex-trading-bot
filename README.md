@@ -1,4 +1,3 @@
-
 # 🪙 CryptoCortex  
 
 CryptoCortex is a modern **crypto trading and portfolio management platform** built with **FastAPI**, **MongoDB (Beanie ODM)**, and a **React frontend**.  
@@ -73,6 +72,7 @@ cryptocortex/
 │
 │── docs/                       # Documentation
 │── README.md                   # Project README
+│── LICENSE                     # MIT License file
 
 ````
 
@@ -155,8 +155,6 @@ Contributions are welcome!
 
 ## 📜 License
 
-MIT License © 2025 \[Your Name / Team]
-
----
+This project is licensed under the [MIT License](./LICENSE).
 
 
