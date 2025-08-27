@@ -1,4 +1,4 @@
-# 🪙 CryptoCortex  
+# CryptoCortex  
 
 CryptoCortex is a modern **crypto trading and portfolio management platform** built with **FastAPI**, **MongoDB (Beanie ODM)**, and a **React frontend**.  
 It allows users to buy, sell, transfer, and manage cryptocurrencies while tracking balances, transaction history, and credits.  
